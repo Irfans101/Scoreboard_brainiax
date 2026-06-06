@@ -9,6 +9,7 @@ import "../styles/scoreboard.css";
 
 const MILESTONE_STEP = 50;
 const REFRESH_INTERVAL_SECONDS = 3;
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 function normalizeScore(data) {
   return {
@@ -31,7 +32,7 @@ export default function Scoreboard() {
   useEffect(() => {
     async function loadInitialScore() {
       try {
-        const response = await fetch("http://localhost:5000/api/score");
+        const response = await fetch(`${API_BASE_URL}/api/score`);
         const data = await response.json();
         const normalized = normalizeScore(data);
         setScore(normalized);
