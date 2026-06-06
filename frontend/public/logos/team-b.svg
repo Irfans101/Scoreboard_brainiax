@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Team B logo">
+  <defs>
+    <linearGradient id="bGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="54" fill="url(#bGrad)"/>
+  <path d="M39 26H63C77 26 85 33 85 45C85 52 81 58 74 61C83 64 88 71 88 80C88 93 78 100 62 100H39V26ZM52 37V56H61C67 56 71 53 71 47C71 40 66 37 59 37H52ZM52 67V89H62C70 89 74 85 74 78C74 71 70 67 62 67H52Z" fill="#ffffff"/>
+</svg>

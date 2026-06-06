@@ -1,0 +1,8 @@
+backend/.env
+backend/credentials.json
+scorebaord-498620-f112ffb21a45.json
+backend/node_modules/
+frontend/node_modules/
+frontend/dist/
+*.log
+.DS_Store

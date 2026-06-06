@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Team A logo">
+  <defs>
+    <linearGradient id="aGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="54" fill="url(#aGrad)"/>
+  <path d="M60 22L88 92H75L68 74H52L45 92H32L60 22ZM56 63H64L60 52L56 63Z" fill="#ffffff"/>
+</svg>
